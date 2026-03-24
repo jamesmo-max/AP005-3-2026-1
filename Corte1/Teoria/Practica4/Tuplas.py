@@ -3,18 +3,18 @@
 colores = ["Rojo", "Azul", "Amarillo", "Naranja", "Violeta", "Verde"]
 
 print("Lista original:", colores)
-print("Tamaño:", len(colores))
-print("Tercer elemento:", colores[2])
+print("Tamaño:", len(colores)) #tamaño de la lista
+print("Tercer elemento:", colores[2]) #imprime la posicion 2
 
-colores.append("Blanco")
-colores.insert(3, "Negro")
-colores += ["Marron", "Gris"]
+colores.append("Blanco") #agrga color
+colores.insert(3, "Negro") # inserta en la posicion 3
+colores += ["Marron", "Gris"] # agrega dos colores a la vez
 
-print("\nLista actualizada:", colores)
+print("\nLista actualizada:", colores) #imprime tupla
 
-colores.remove("Marron")
+colores.remove("Marron") #quita marron
 
-colores.sort()
+colores.sort() # organiza orden alfabetico
 print("Lista ordenada:", colores)
 
 
@@ -23,18 +23,18 @@ print("Lista ordenada:", colores)
 numeros = [10,9,8,7,6,5,4,3,2,1]
 
 numeros.sort()
-print("\nNumeros de menor a mayor:", numeros)
+print("\nNumeros de menor a mayor:", numeros) #organiza orden ascendente
 
 numeros.sort(reverse=True)
-print("Numeros de mayor a menor:", numeros)
+print("Numeros de mayor a menor:", numeros) #organiza orden decendente
 
 
 # ---------------- TUPLAS ----------------
 
-tupla_colores = tuple(colores)
+tupla_colores = tuple(colores) #convierte lista en tupla
 print("\nTupla:", tupla_colores)
 
-print("¿Está 'Rojo' en la tupla?", "Rojo" in tupla_colores)
+print("¿Está 'Rojo' en la tupla?", "Rojo" in tupla_colores)#busca rojo en la tupla
 
 tupla_unica = ("Blanco",)
 print("Tupla con un elemento:", tupla_unica)
@@ -46,4 +46,4 @@ print("\nNombre:", nombre)
 print("Fecha:", dia, "/", mes, "/", año)
 
 lista_datos = list(datos)
-print("Tupla convertida en lista:", lista_datos)
+print("Tupla convertida en lista:", lista_datos) #convierte tupla en lista
