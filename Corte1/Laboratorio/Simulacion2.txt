@@ -1,0 +1,8 @@
+Simulacion en wokwi..... ESP32 8 LEDS SIN MODOS: LENGUAJE C++
+https://wokwi.com/projects/455231250424418305
+
+Simulacion en wokwi.....ESP32 8 LEDS SIN MODOS: LENGUAJE MICROPYTHON
+https://wokwi.com/projects/455805789013009409
+
+Simulacion en wokwi.....ESP32 8 LEDS CON MODOS LENGUAJE MICROPYTHON
+https://wokwi.com/projects/455863867609511937
