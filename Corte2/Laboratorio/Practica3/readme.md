@@ -182,4 +182,4 @@ Gráfica en tiempo real
 
 # 👨‍💻 Autor
 
-Proyecto académico de IoT y visualización de datos usando ESP32, Flask y Chart.js.
+Proyecto académico james moreno----kevin hurtado----felipe ayala.
